@@ -10,7 +10,7 @@ class Pokecard extends Component {
     return (
       <div className="Pokecard">
         <img src={` ${image}${id}.png`} alt={name} />
-        <h3>{name}</h3>
+        <h3 className="Pokecard-name">{name}</h3>
         <h5>{type}</h5>
         <h5>{id}</h5>
         <h5>{exp}</h5>
